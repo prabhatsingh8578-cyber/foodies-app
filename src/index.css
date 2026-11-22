@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+body.dark {
+  background: #121212;
+  color: #eee;
+}
+
+body.dark .navbar,
+body.dark .food-menu,
+body.dark .food-card,
+body.dark .cart-panel,
+body.dark .checkout-form,
+body.dark .order-summary,
+body.dark .rest-card,
+body.dark .order-card,
+body.dark .login-card,
+body.dark .cat-btn {
+  background: #1e1e1e;
+}
+
+body.dark .hero {
+  background: #181818;
+}
+
+body.dark h2,
+body.dark h3,
+body.dark h4,
+body.dark .logo span,
+body.dark .hero-content h1,
+body.dark .food-menu h2,
+body.dark .cart-header h2,
+body.dark .cart-item-info h4 {
+  color: #f5f5f5;
+}
+
+body.dark .food-info p,
+body.dark .food-menu > p,
+body.dark .hero-content p,
+body.dark .rest-sub,
+body.dark .cart-empty,
+body.dark .no-orders,
+body.dark .order-addr,
+body.dark .user-name {
+  color: #aaa;
+}
+
+body.dark .nav-links li,
+body.dark .nav-links a,
+body.dark .close-btn {
+  color: #eee;
+}
+
+body.dark .checkout-form input,
+body.dark .checkout-form textarea,
+body.dark .login-card input,
+body.dark .search-input {
+  background: #2a2a2a;
+  color: #eee;
+  border-color: #444;
+}
+
+body.dark .cart-item,
+body.dark .summary-row,
+body.dark .order-row,
+body.dark .icon-btn {
+  border-color: #333;
+}
+
+body.dark .cat-btn.active {
+  background: #ff5722;
+}
+body.dark .about-hero {
+  background: #1a1a1a;
+}
+
+body.dark .stat-card,
+body.dark .info-card,
+body.dark .faq-item,
+body.dark .contact-info-card,
+body.dark .contact-form {
+  background: #1e1e1e;
+}
+
+body.dark .about-page p,
+body.dark .contact-info-card p,
+body.dark .contact-sub {
+  color: #aaa;
+}
+
+body.dark .about-section > h2,
+body.dark .contact-info-card h3 {
+  color: #f5f5f5;
+}
+
+body.dark .contact-form input,
+body.dark .contact-form select,
+body.dark .contact-form textarea {
+  background: #2a2a2a;
+  color: #eee;
+  border-color: #444;
+}
